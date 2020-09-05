@@ -8,7 +8,7 @@
 			<div class = "Upper">
 				<div id = "navigation">
 					<div class = "nleft">
-						<a href = "index.html" class = "asulat">Home</a>
+						<a href = "index.php" class = "asulat">Home</a>
 					</div>
 					<div class = "ncenter">
 						<div class = "bawbaw"></div>
@@ -16,7 +16,7 @@
 						<div class = "bawbawx"></div>
 					</div>
 					<div class = "nright">
-						<a href = "index.html" class = "asulat">About me</a>
+						<a href = "index.php" class = "asulat">About me</a>
 					</div>
 				</div>
 			</div>	

@@ -1,0 +1,170 @@
+body{
+	background-image:url(bckg.gif);
+	background-size:cover;
+}
+.main{
+	width:100%;
+	height:900px;
+	
+}
+.Upper{
+	width:100%;
+	height:150px;
+	
+}
+.Body{
+	margin-top:10px;
+	width:100%;
+	height:600px;	
+	
+}
+#navigation{
+	width:60%;
+	height:120px;
+	margin-left:300px;
+	margin-top:30px;
+	transition:top 0.3s;
+}
+.nleft{
+	float:left;
+	width:42.5%;
+	height:120px;
+	text-align:center;
+}
+.asulat{
+	font-size:70px;
+	font-family:harlow solid;
+	color:white;
+	text-decoration:none;
+	overflow:hidden;
+	transition:0.2s;
+	
+}
+.asulat:hover{
+	color:white;
+	background:#2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3,0 0 80px #2196f3;
+	border-radius:5%;
+
+}
+.ncenter{
+	float:left;
+	width:15%;
+	height:120px;
+	background-color:white;
+	border-radius:100%;
+	border-bottom:5px solid #2196f3;
+	border-top:5px solid #E91FD3;
+	background-image:linear-gradient(white,blue);
+}
+.bawbaw{
+	width:30%;
+	height:30px;
+	background-color:#E91FD3;
+	float:left;
+	margin-top:20px;
+	margin-left:8px;
+	border-radius:20%;
+}
+.bawbawx{
+	width:16%;
+	height:8px;
+	background-color:#E91FD3;
+	float:right;
+	margin-right:15px;
+	margin-top:30px;
+	transform:skewY(20deg);
+}
+.nright{
+	float:left;
+	width:42.5%;
+	height:120px;
+	text-align:center;
+}
+.slidershow{
+	width:97%;
+	height:600px;
+	overflow:hidden;
+	border-radius:2%;
+}
+.middle{
+	position:absolute;
+	top:65%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.navb{
+	position:absolute;
+	bottom:20px;
+	left:50%;
+	transform:translateX(-50%);
+	display:flex;
+}
+.bar{
+	width:50px;
+	height:10px;
+	border:2px solid #fff;
+	
+	margin:10px;
+	cursor:pointer;
+	transition:transform 0.4s;
+}
+.bar:hover{
+	background:white;
+	border:2px solid white;
+	transform:scale(1.5);
+	opacity:75%;
+	border-radius:5%;
+}
+input[name="r"]{
+	position:absolute;
+	visibility:hidden;
+}
+
+.slides{
+	width:500%;
+	height:100%;
+	display:flex;
+}
+.slide{
+	width:20%;
+	transition:0.6s;
+}
+.slide img{
+	width:100%;
+	height:100%;
+}
+
+#r1:checked ~ .s1{
+	margin-left:0;
+}
+#r2:checked ~ .s1{
+	margin-left:-20%;
+}
+#r3:checked ~ .s1{
+	margin-left:-40%;
+}
+#r4:checked ~ .s1{
+	margin-left:-60%;
+}
+#r5:checked ~ .s1{
+	margin-left:-80%;
+}
+
+.idalum{
+	width:100%;
+	height:180px;
+	
+	
+}
+.pargr{
+	margin-left:20%;
+	width:60%;
+	height:150px;
+	
+}
+.x{
+	font-size:22px;
+	font-family:harlow solid;
+	color:white;
+}
